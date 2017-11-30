@@ -13,6 +13,7 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+  
   <build>
     <resources>
       <resource>
@@ -20,7 +21,7 @@
         <directory>${basedir}/src/main/resources</directory>
       </resource>
     </resources>
-    <plugins>
+<!--     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
@@ -58,7 +59,8 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+ -->  </build>
+  
   <dependencies>
     <dependency>
       <groupId>cglib</groupId>
@@ -227,5 +229,7 @@
     <spring.version>3.1.0.RELEASE</spring.version>
     <m2eclipse.wtp.contextRoot>calendar</m2eclipse.wtp.contextRoot>
     <project.build.sourceEncoding>UTF8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>    
   </properties>
 </project>
